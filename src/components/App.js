@@ -28,10 +28,6 @@ class App extends React.Component {
         <LanguageContext.Provider value={this.state.language}>
           <UserCreate />
         </LanguageContext.Provider>
-        <LanguageContext.Provider value="german">
-          <UserCreate />
-        </LanguageContext.Provider>
-        <UserCreate />
       </div>
     );
   }
